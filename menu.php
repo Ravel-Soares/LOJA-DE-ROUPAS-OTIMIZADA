@@ -31,9 +31,11 @@
             font-family: 'Outfit', sans-serif;
         }
         #sticky{
-            position: fixed ;
-            top: 0;
+            
             width: 100%;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-color: 	#2F4F4F ;
         }
         .menu {
           text-decoration: none ;
@@ -48,6 +50,7 @@
             background-color: #201b2c;
         }
 
+
     </style>
 </head>
 <body>
@@ -55,7 +58,7 @@
     <div class="parallax">
         <div class="page-title">Veste Bem</div>
  
-       <div class="menu" id="sticky">
+       <div class="menu fixed-top" id="sticky">
        <nav class="navbar cor-fundo justify-content-between">
   <a href="">Inicio</a>
   <a href="">Blusas</a>
